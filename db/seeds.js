@@ -159,7 +159,7 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           points: 14522,
           rings: 11,
           active: false,
-          image: ''
+          image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001311/images/players/russebi01.jpg'
         }
       ])
     })
