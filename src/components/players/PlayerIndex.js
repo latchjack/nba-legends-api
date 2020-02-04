@@ -24,7 +24,7 @@ class PlayerIndex extends React.Component {
     return (
       <section className="section">
         <div className="container">
-          <div className="columns is-mobile is-multiline">
+          <div className="columns is-mobile is-multiline is-two-thirds-tablet is-three-quarters-mobile">
             {this.state.players.map(player => (
               <PlayerCard key={player.name} {...player} />
             ))}

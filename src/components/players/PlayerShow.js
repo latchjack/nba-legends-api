@@ -9,7 +9,7 @@ class PlayerShow extends React.Component {
   async componentDidMount() {
     const playerId = this.props.match.params.id
     try {
-      const res = await axios.get(`localhost:4000/api/players/${playerId}`)
+      const res = await axios.get(`/players/${playerId}`)
       this.setState({ player: res.data })
     } catch (err) {
       console.log(err)
@@ -37,11 +37,11 @@ class PlayerShow extends React.Component {
                     <p className="score-num">{team}</p>
                     <p className="score-num">{rings}</p>
                     <p className="score-num">{active}</p>
-                    <p className="subtitle has-text-grey"><span className="has-text-weight-bold">{points}</span> points</p>
+                    <p className="subtitle has-text-grey">{points}</p>
                   </div>
                 </div>
               </div>
-              <img src="../assets/underline.png" alt="underline" />
+              <hr />
               
               <p className="subtitle has-text-white">{points}</p>
               <p className="subtitle has-text-white has-text-weight-bold">{active}</p>

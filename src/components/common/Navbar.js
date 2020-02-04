@@ -6,17 +6,17 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <nav className="navbar">
+      <nav className="navbar is-black">
         <div className="container">
           <div className="navbar-brand">
-            <Link className="navbar-item has-text-black title" to="/">
+            <Link className="navbar-item has-text-white title is-4" to="/">
               <div className="logo">
                 <p className="title">⛹🏽‍♂️</p>
               </div>
               Legends</Link>
           </div>
           <div className="navbar-end">
-            <Link className="navbar-item has-text-black title is-4" to="/players">Players</Link>
+            <Link className="navbar-item has-text-white title is-4" to="/players">Players</Link>
           </div>
         </div>
       </nav>

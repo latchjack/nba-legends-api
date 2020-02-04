@@ -8,7 +8,7 @@ const PlayerCard = ({ _id, name, nickName, dob, shirtNumber, position, team, poi
     <Link to={`/players/${_id}`}>
       <div className="card">
         <div className="card-header player-header">
-          <h4 className="card-header-title title is-4 has-text-black">{name}</h4>
+          <h4 className="card-header-title title is-4 has-text-white has-text-centered is-block">{name}</h4>
           
           
         </div>
@@ -18,14 +18,13 @@ const PlayerCard = ({ _id, name, nickName, dob, shirtNumber, position, team, poi
           </figure>
         </div>
         <div className="card-content">
-          <h5 className="card-header-title title is-4 has-text-black">Nickname: {nickName}</h5>
-          <h6 className="card-header-title title is-4 has-text-black">Shirt#:{shirtNumber}</h6>
-          <h5 className="title is-4 has-text-black">👶🏽 {dob}</h5>
-          <h5 className="title is-4 has-text-black">🏀 {position}</h5>
-          <h5 className="title is-4 has-text-black">🏀 {team}</h5>
-          <h5 className="title is-4 has-text-black">🏀 {points}</h5>
-          <h5 className="title is-4 has-text-black">🏆 {rings}</h5>
-          <h5 className="title is-4 has-text-black">👴🏽Still playing? {active}</h5>
+          <h5 className="card-header-title title is-6 has-text-white has-text-centered is-block">Nickname: {nickName}</h5>
+          <h6 className="card-header-title title is-5 has-text-white">Shirt#: {shirtNumber}</h6>
+          <h5 className="title is-6 has-text-white">👶🏽 {dob}</h5>
+          <h5 className="title is-6 has-text-white">🏀 {position}</h5>
+          <h5 className="title is-6 has-text-white">🏀 {team}</h5>
+          <h5 className="title is-6 has-text-white">🏀 {points}</h5>
+          <h5 className="title is-6 has-text-white">🏆 {rings}x NBA Champion</h5>
         </div>
       </div>
     </Link>

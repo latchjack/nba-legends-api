@@ -6,10 +6,10 @@ const Home = () => (
       <div className="container">
         <div className="main-header">
           <div className="main-logo">
-            <p className="title"> 🏀 </p>
+            <p className="title">  </p>
           </div>
           <p className="title is-1 has-text-centered has-text-white">
-          NBA Legends
+          🏀NBA Legends
           </p>
         </div>
       </div>
