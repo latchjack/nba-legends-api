@@ -8,7 +8,7 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
       return Player.create([
         {
           name: 'Michael Jordan',
-          nickName: 'MJ',
+          nickName: 'Air Jordan',
           dob: '170263',
           shirtNumber: 23,
           position: 'Shooting Guard',
@@ -140,7 +140,7 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001262/images/players/malonka01.jpg'
         }, {
           name: 'Pete Maravich',
-          nickName: 'Pistol',
+          nickName: 'Pistol Pete',
           dob: '220647',
           shirtNumber: 44,
           position: 'Shooting Guard',
@@ -160,6 +160,28 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           rings: 11,
           active: false,
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001311/images/players/russebi01.jpg'
+        }, {
+          name: 'Jerry West',
+          nickName: 'The Logo',
+          dob: '280538',
+          shirtNumber: 44,
+          position: 'Point Guard',
+          team: 'Los Angeles Lakers',
+          points: 25192,
+          rings: 1,
+          active: false,
+          image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001311/images/players/westje01.jpg'
+        }, {
+          name: 'Hakeem Olajuwon',
+          nickName: 'The Dream',
+          dob: '210163',
+          shirtNumber: 34,
+          position: 'Center',
+          team: 'Houston Rockets',
+          points: 26946,
+          rings: 2,
+          active: false,
+          image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001311/images/players/olajuha01.jpg'
         }
       ])
     })

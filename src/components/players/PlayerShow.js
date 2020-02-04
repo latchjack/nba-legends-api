@@ -9,7 +9,7 @@ class PlayerShow extends React.Component {
   async componentDidMount() {
     const playerId = this.props.match.params.id
     try {
-      const res = await axios.get(`/players/${playerId}`)
+      const res = await axios.get(`api/players/${playerId}`)
       this.setState({ player: res.data })
     } catch (err) {
       console.log(err)
