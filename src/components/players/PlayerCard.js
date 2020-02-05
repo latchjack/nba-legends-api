@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
-const PlayerCard = ({ _id, name, nickName, dob, shirtNumber, position, team, points, rings, active, image }) => (
+const PlayerCard = ({ _id, name, nickName, dob, shirtNumber, position, team, points, rings, image }) => (
   
   <div className="column is-one-quarter-desktop is-one-third-tablet is-full-mobile">
     <Link to={`/players/${_id}`}>
