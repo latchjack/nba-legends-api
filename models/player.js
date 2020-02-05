@@ -13,6 +13,7 @@ const playerSchema = new mongoose.Schema({
   rings: { type: Number, required: true, unique: false },
   active: { type: String, required: true, unique: false },
   yearsPlayed: { type: String, required: true, unique: false },
+  bio: { type: String, required: true, unique: false },
   image: { type: String, required: true, unique: true }
 }, {
   timestamps: true

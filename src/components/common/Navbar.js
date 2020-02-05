@@ -9,14 +9,10 @@ class Navbar extends React.Component {
       <nav className="navbar is-black">
         <div className="container">
           <div className="navbar-brand">
-            <Link className="navbar-item has-text-white title is-4" to="/">
-              <div className="logo">
-                <p className="title">⛹🏽‍♂️</p>
-              </div>
-              Legends</Link>
+            <Link className="navbar-item has-text-white title is-4 is-uppercase" to="/">Legends⛹🏽‍♂️</Link>
           </div>
           <div className="navbar-end">
-            <Link className="navbar-item has-text-white title is-4" to="/players">Players</Link>
+            <Link className="has-text-left-mobile navbar-item has-text-white title is-4 is-uppercase" to="/players">Players</Link>
           </div>
         </div>
       </nav>

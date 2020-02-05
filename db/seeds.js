@@ -14,8 +14,12 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           position: 'Shooting Guard',
           team: 'Chicago Bulls',
           points: 32292,
+          assists: 5633,
+          rebounds: 6672,
           rings: 6,
           active: 'Retired',
+          yearsPlayed: '1984-2003', 
+          bio: 'Michael Jeffrey Jordan is an American former professional basketball player and the principal owner of the Charlotte Hornets of the National Basketball Association (NBA). He played 15 seasons in the NBA, winning six championships with the Chicago Bulls. His biography on the official NBA website states: "By acclamation, Michael Jordan is the greatest basketball player of all time".',
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001262/images/players/jordami01.jpg'
         }, {
           name: 'Ray Allen',
@@ -25,8 +29,12 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           position: 'Shooting Guard',
           team: 'Boston Celtics',
           points: 24505,
+          assists: 4361,
+          rebounds: 5272,
           rings: 2,
           active: 'Retired',
+          yearsPlayed: '1996-2014',
+          bio: 'Walter Ray Allen Jr. is an American former professional basketball player. He played 18 seasons in the National Basketball Association (NBA). He is also considered one of the best shooters of all-time.',
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001262/images/players/allenra02.jpg'
         }, {
           name: 'Charles Barkley',
@@ -36,8 +44,12 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           position: 'Power Forward',
           team: 'Philadelphia 76ers',
           points: 23757,
+          assists: 4215,
+          rebounds: 12546,
           rings: 0,
           active: 'Retired',
+          yearsPlayed: '1984-2000',
+          bio: 'Charles Wade Barkley is an American retired professional basketball player who is currently an analyst on Inside the NBA. Barkley established himself as one of the National Basketball Association\'s most dominant power forwards.',
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001262/images/players/barklch01.jpg'
         }, {
           name: 'Larry Bird',
@@ -47,8 +59,12 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           position: 'Small Forward',
           team: 'Boston Celtics',
           points: 21791,
+          assists: 5695,
+          rebounds: 8974,
           rings: 3,
           active: 'Retired',
+          yearsPlayed: '1979-1992',
+          bio: 'Larry Joe Bird is an American former professional basketball player, former coach, and former executive who most recently served as President of Basketball Operations for the Indiana Pacers in the National Basketball Association (NBA). Bird is widely regarded as one of the greatest basketball players of all time.',
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001262/images/players/birdla01.jpg'
         }, {
           name: 'Kareem Abdul-Jabbar',
@@ -58,8 +74,12 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           position: 'Center',
           team: 'Los Angeles Lakers',
           points: 38387,
+          assists: 5660,
+          rebounds: 17440,
           rings: 6,
           active: 'Retired',
+          yearsPlayed: '1969-1989',
+          bio: 'Kareem Abdul-Jabbar (born Ferdinand Lewis Alcindor Jr) is an American retired professional basketball player who played 20 seasons in the National Basketball Association (NBA). During his career as a center, Abdul-Jabbar was a record six-time NBA Most Valuable Player (MVP), a record 19-time NBA All-Star, a 15-time All-NBA selection, and an 11-time NBA All-Defensive Team member.',
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001262/images/players/abdulka01.jpg'
         }, {
           name: 'Wilt Chamberlain',
@@ -69,8 +89,12 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           position: 'Center',
           team: 'Harlem Globetrotters',
           points: 31419,
+          assists: 4643,
+          rebounds: 23924,
           rings: 2,
           active: 'Retired',
+          yearsPlayed: '1959-1973',
+          bio: 'Wilton Norman Chamberlain was an American basketball player who played as a center and is considered one of the greatest players in history. Chamberlain stood 7 ft 1 in (2.16 m) tall, and weighed 250 pounds (110 kg) as a rookie before bulking up to 275 and eventually to over 300 pounds (140 kg) with the Lakers.',
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001262/images/players/chambwi01.jpg'
         }, {
           name: 'Clyde Drexler',
@@ -80,8 +104,12 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           position: 'Shooting Guard',
           team: 'Portland Trailblazers',
           points: 22195,
+          assists: 6125,
+          rebounds: 6677,
           rings: 1,
           active: 'Retired',
+          yearsPlayed: '1983-1998',
+          bio: 'Clyde Austin Drexler is an American former professional basketball player who is the commissioner of the Big3 3-on-3 basketball league. He played 15 seasons in the National Basketball Association (NBA), spending a majority of his career with the Portland Trail Blazers before finishing with the Houston Rockets',
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001262/images/players/drexlcl01.jpg'
         }, {
           name: 'Julius Erving',
@@ -91,8 +119,12 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           position: 'Small Forward',
           team: 'Philadelphia 76ers',
           points: 30026,
+          assists: 5176,
+          rebounds: 10525,
           rings: 1,
           active: 'Retired',
+          yearsPlayed: '1971-1987',
+          bio: 'Julius Winfield Erving II is an American retired basketball player who helped popularize a modern style of play that emphasizes leaping and playing above the rim in his career at the ABA and the NBA. Erving helped legitimize the American Basketball Association (ABA) and was the best-known player in that league when it merged into the National Basketball Association (NBA) after the 1975–76 season.',
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001262/images/players/ervinju01.jpg'
         }, {
           name: 'Patrick Ewing',
@@ -102,8 +134,12 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           position: 'Center',
           team: 'New York Knicks',
           points: 24815,
+          assists: 11617,
+          rebounds: 2215,
           rings: 0,
           active: 'Retired',
+          yearsPlayed: '1985-2002',
+          bio: 'Patrick Aloysius Ewing is a Jamaican-American retired Hall of Fame basketball player and current head coach of the Georgetown University men\'s basketball team. He played most of his career as the starting center of the NBA\'s New York Knicks and also played briefly with the Seattle SuperSonics and Orlando Magic.',
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001262/images/players/ewingpa01.jpg'
         }, {
           name: 'Earvin Johnson Jr',
@@ -113,8 +149,12 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           position: 'Point Guard',
           team: 'Los Angeles Lakers',
           points: 17707,
+          assists: 10141,
+          rebounds: 6559,
           rings: 5,
           active: 'Retired',
+          yearsPlayed: '1979-1991',
+          bio: 'Earvin Johnson Jr. is an American retired professional basketball player and former president of basketball operations of the Los Angeles Lakers of the National Basketball Association (NBA). He played point guard for the Lakers for 13 seasons. He won a championship and an NBA Finals Most Valuable Player Award in his rookie season, and won four more championships with the Lakers during the 1980s.',
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001262/images/players/johnsma02.jpg'
         }, {
           name: 'Jason Kidd',
@@ -124,8 +164,12 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           position: 'Point Guard',
           team: 'Dallas Mavericks',
           points: 17529,
+          assists: 12091,
+          rebounds: 8725,
           rings: 1,
           active: 'Retired',
+          yearsPlayed: '1994-2013',
+          bio: 'Jason Frederick Kidd is an American professional basketball coach and former player who is an assistant coach for the Los Angeles Lakers of the National Basketball Association (NBA). Previously a point guard in the NBA, Kidd was a 10-time NBA All-Star, a five-time All-NBA First Team member, and a nine-time NBA All-Defensive Team member.',
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001262/images/players/kiddja01.jpg'
         }, {
           name: 'Karl Malone',
@@ -135,8 +179,12 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           position: 'Power Forward',
           team: 'Utah Jazz',
           points: 36928,
+          assists: 5238,
+          rebounds: 14968,
           rings: 0,
           active: 'Retired',
+          yearsPlayed: '1985-2004',
+          bio: 'Karl Anthony Malone is an American retired professional basketball player. Malone played the power forward position and spent his first 18 seasons (1985–2003) in the National Basketball Association (NBA) with the Utah Jazz and formed a formidable duo with his teammate John Stockton. He is considered one of the greatest power forwards in NBA history.',
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001262/images/players/malonka01.jpg'
         }, {
           name: 'Pete Maravich',
@@ -146,8 +194,12 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           position: 'Shooting Guard',
           team: 'Atlanta Hawks',
           points: 15948,
+          assists: 3563,
+          rebounds: 2747,
           rings: 0,
           active: 'Retired',
+          yearsPlayed: '1970-1980',
+          bio: 'Peter Press Maravich, was an American professional basketball player.  Maravich played for three NBA teams until injuries forced his retirement in 1980 following a ten-year career. He is the all-time leading NCAA Division I scorer with 3,667 points scored and an average of 44.2 points per game. All of his accomplishments were achieved before the adoption of the three point line and shot clock.',
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001262/images/players/maravpe01.jpg'
         }, {
           name: 'Bill Russell',
@@ -157,8 +209,12 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           position: 'Center',
           team: 'Boston Celtics',
           points: 14522,
+          assists: 4100,
+          rebounds: 21620,
           rings: 11,
           active: 'Retired',
+          yearsPlayed: '1956-1969',
+          bio: 'William Felton Russell is an American former professional basketball player who played center for the Boston Celtics of the National Basketball Association (NBA) from 1956 to 1969. A five-time NBA Most Valuable Player and a twelve-time All-Star, he was the centerpiece of the Celtics dynasty that won eleven NBA championships during his thirteen-year career.',
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001311/images/players/russebi01.jpg'
         }, {
           name: 'Jerry West',
@@ -168,8 +224,12 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           position: 'Point Guard',
           team: 'Los Angeles Lakers',
           points: 25192,
+          assists: 6238,
+          rebounds: 5366,
           rings: 1,
           active: 'Retired',
+          yearsPlayed: '1960-1974',
+          bio: 'Jerome Alan West is an American basketball executive and former player. During his active career West played professionally for the Los Angeles Lakers of the National Basketball Association (NBA). His nicknames included Mr. Clutch, for his ability to make a big play in a clutch situation, such as his famous buzzer-beating 60-foot shot that tied Game 3 of the 1970 NBA Finals against the New York Knicks; The Logo, in reference to his silhouette being incorporated into the NBA logo.',
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001311/images/players/westje01.jpg'
         }, {
           name: 'Hakeem Olajuwon',
@@ -179,9 +239,73 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, (er
           position: 'Center',
           team: 'Houston Rockets',
           points: 26946,
+          assists: 3830,
+          rebounds: 13747,
           rings: 2,
           active: 'Retired',
+          yearsPlayed: '1984-2002',
+          bio: 'Hakeem Abdul Olajuwon, is a Nigerian-American former professional basketball player. From 1984 to 2002, he played the center position in the National Basketball Association (NBA) for the Houston Rockets and the Toronto Raptors. He led the Rockets to back-to-back NBA championships in 1994 and 1995. In 2008, he was inducted into the Basketball Hall of Fame, and in 2016, he was inducted into the FIBA Hall of Fame. Listed at 7 ft 0 in (2.13 m), Olajuwon is considered one of the greatest centers ever to play the game.',
           image: 'https://d2cwpp38twqe55.cloudfront.net/req/202001311/images/players/olajuha01.jpg'
+        }, {
+          name: 'Scottie Pippen',
+          nickName: 'Pip',
+          dob: '25-09-1965',
+          shirtNumber: 33,
+          position: 'Small Forward',
+          team: 'Chicago Bulls',
+          points: 18940,
+          assists: 6135,
+          rebounds: 7494,
+          rings: 6,
+          active: 'Retired',
+          yearsPlayed: '1987-2008',
+          bio: 'Scottie Maurice Pippen, is an American former professional basketball player and is considered one of the greatest small forwards of all time. He played 17 seasons in the National Basketball Association (NBA), winning six NBA championships with the Chicago Bulls. Pippen, along with Michael Jordan, played an important role in transforming the Bulls into a championship team and in popularizing the NBA around the world during the 1990s.',
+          image: 'https://d2cwpp38twqe55.cloudfront.net/req/202002042/images/players/pippesc01.jpg'
+        }, {
+          name: 'Lebron James',
+          nickName: 'King James',
+          dob: '30-12-1984',
+          shirtNumber: 23,
+          position: 'Small Forward',
+          team: 'Cleveland Cavaliers',
+          points: 33728,
+          assists: 9164,
+          rebounds: 9242,
+          rings: 3,
+          active: 'Playing',
+          yearsPlayed: '2003-Present',
+          bio: 'LeBron Raymone James Sr. is an American professional basketball player for the Los Angeles Lakers of the National Basketball Association. He is often regarded as the greatest basketball player of all time, which has resulted in frequent comparisons to Michael Jordan. His accomplishments include three NBA championships, four NBA MVP Awards, three NBA Finals MVP Awards, and two Olympic gold medals.',
+          image: 'https://d2cwpp38twqe55.cloudfront.net/req/202002042/images/players/jamesle01.jpg'
+        }, {
+          name: 'Kobe Bryant',
+          nickName: 'Black Mamba',
+          dob: '23-08-1978',
+          shirtNumber: 24,
+          position: 'Small Forward',
+          team: 'Los Angeles Lakers',
+          points: 33643,
+          assists: 6306,
+          rebounds: 7047,
+          rings: 5,
+          active: 'Retired',
+          yearsPlayed: '1996-2016',
+          bio: 'Kobe Bean Bryant was an American professional basketball player. Bryant won five NBA championships, was an 18-time All-Star, 15-time member of the All-NBA Team, 12-time member of the All-Defensive Team, was named the 2008 NBA Most Valuable Player (MVP), and was a two-time NBA Finals MVP winner. Widely regarded as one of the greatest players of all time, he led the NBA in scoring during two seasons, ranks fourth on the league\'s all-time regular season scoring and all-time postseason scoring lists.',
+          image: 'https://d2cwpp38twqe55.cloudfront.net/req/202002042/images/players/bryanko01.jpg'
+        }, {
+          name: 'Shaquille O\'Neal',
+          nickName: 'Shaq',
+          dob: '06-03-1972',
+          shirtNumber: 32,
+          position: 'Center',
+          team: 'Orlando Magic',
+          points: 28596,
+          assists: 3026,
+          rebounds: 13099,
+          rings: 4,
+          active: 'Retired',
+          yearsPlayed: '1992-2011',
+          bio: 'Shaquille Rashaun O\'Neal is a retired professional American basketball player who is a sports analyst on the television program Inside the NBA on TNT. He is considered one of the greatest players in National Basketball Association (NBA) history. At 7 ft 1 in (2.16 m) tall and 325 pounds (147 kg), he was one of the tallest and heaviest players ever.',
+          image: 'https://d2cwpp38twqe55.cloudfront.net/req/202002042/images/players/onealsh01.jpg'
         }
       ])
     })
